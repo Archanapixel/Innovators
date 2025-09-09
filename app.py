@@ -1,5 +1,5 @@
 from flask import flask
-from model import generatorAI
+from main import generatorAI
 import pickle
 
 generateAI()
@@ -20,4 +20,5 @@ def predict():
     result=ai.predict(data)
     return result
 if(__name__)=="__main.py__":
+
     app.run(host='0.0.0.0',port=3000)

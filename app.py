@@ -24,4 +24,6 @@ def predict():
     return str(result[0])   # Convert NumPy/prediction result to string
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=3000)
+    app.run(host="0.0.0.0", port=5000)
+
+
